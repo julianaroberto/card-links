@@ -72,6 +72,7 @@
     background-color: var(--grey);
     border-radius: 0.5rem;
     font-weight: 700;
+    transition: background .3s;
   }
   
   .card li > a:hover,
