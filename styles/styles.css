@@ -12,6 +12,7 @@
     --off-black: hsl(0, 0%, 8%);
   }
   
+/* bg - geral */
   body {
     font-family: "Inter", sans-serif;
     display: grid;
@@ -23,12 +24,15 @@
     color: var(--white);
   }
   
+  /* card bg*/
+
   .card {
     background-color: var(--dark-grey);
     border-radius: 1rem;
-    padding: 2rem;
+    padding: 2rem; 
   }
   
+  /* avatar */
   .card__image img {
     display: block;
     max-width: 100%;
@@ -38,6 +42,7 @@
     height: 7.5rem;
   }
   
+  /* conteúdo do card */
   .card .card__details {
     padding: 1rem;
   }
@@ -56,13 +61,17 @@
   .card .card__quote {
     padding: 0.5rem;
   }
+
+  /* links */
+
   .card ul {
     list-style: none;
   }
   .card li {
     margin-top: 1rem;
   }
-  
+
+
   .card li > a {
     display: block;
     width: 100%;
@@ -81,6 +90,7 @@
     color: var(--off-black);
   }
   
+  /* footer */
   .attribution {
     font-size: 0.75rem;
     text-align: center;
@@ -90,6 +100,8 @@
     color: var(--green);
   }
   
+  /* media queries */
+
   @media screen and (min-width: 768px) {
     body {
       padding: 6rem 1rem;
