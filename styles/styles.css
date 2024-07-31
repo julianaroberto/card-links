@@ -90,6 +90,37 @@
     color: var(--off-black);
   }
   
+  /* icons */
+  .fa-github {
+    font-size: 1.4em;
+    margin: 0.1em;
+    color: var(--green);
+  }
+
+  .fa-desktop {
+    font-size: 1.4em;
+    margin: 0.1em;
+    color: var(--green);
+  }
+
+ .fa-linkedin {
+    font-size: 1.4em;
+    margin: 0.1em;
+    color: var(--green);
+ }
+
+ .fa-x {
+    font-size: 1.4em;
+    margin: 0.1em;
+    color: var(--green);
+ }
+
+ .fa-instagram {
+    font-size: 1.4em;
+    margin: 0.1em;
+    color: var(--green);
+ }
+
   /* footer */
   .attribution {
     font-size: 0.75rem;
