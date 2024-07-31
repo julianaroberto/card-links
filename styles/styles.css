@@ -5,7 +5,7 @@
   }
   
   :root {
-    --green: hsl(75, 94%, 57%);
+    --green: hsl(268, 73%, 75%);
     --white: hsl(0, 0%, 100%);
     --grey: hsl(0, 0%, 20%);
     --dark-grey: hsl(0, 0%, 12%);
@@ -93,30 +93,35 @@
   /* icons */
   .fa-github {
     font-size: 1.4em;
+    padding: 0.2em;
     margin: 0.1em;
     color: var(--green);
   }
 
   .fa-desktop {
     font-size: 1.4em;
+    padding: 0.2em;
     margin: 0.1em;
     color: var(--green);
   }
 
  .fa-linkedin {
     font-size: 1.4em;
+    padding: 0.2em;
     margin: 0.1em;
     color: var(--green);
  }
 
  .fa-x {
     font-size: 1.4em;
+    padding: 0.2em;
     margin: 0.1em;
     color: var(--green);
  }
 
  .fa-instagram {
     font-size: 1.4em;
+    padding: 0.2em;
     margin: 0.1em;
     color: var(--green);
  }
