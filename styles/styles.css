@@ -62,6 +62,15 @@
     padding: 0.5rem;
   }
 
+  .fa-brands {
+    display: inline-block;
+    color: var(--green);
+    font-size: 1.4em;
+    padding: 0.2em;
+  }
+
+  .fa-
+
   /* links */
 
   .card ul {
