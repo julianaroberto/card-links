@@ -6,6 +6,7 @@
   
   :root {
     --purple: hsl(268, 73%, 75%);
+    --dark-purple: hsl(268, 46%, 61%);
     --white: hsl(0, 0%, 100%);
     --grey: hsl(0, 0%, 20%);
     --dark-grey: hsl(0, 0%, 12%);
@@ -69,28 +70,14 @@
     color: var(--purple);
   }
 
-  /* animações */
-  
-  /* .slides {
-    display: inline-block;
-  }
-
   .pagina-slide {
-    white-space: nowrap;
-    width: 75vw;
-    overflow: hidden;
-    animation: anima 5s linear infinite;
- }   */
-
- @keyframes anima {
-   100% {
-    transform: translateX(50%);
-   }
-    0% {
-     transform: translateY(0%);
-   }
+    padding: 0.3rem;
+    margin: 0;
   }
 
+  .p2 {
+    margin-top: 0.3rem;
+  }
   /* links */
 
   .card ul {
@@ -124,7 +111,8 @@
       font-size: 1.4em;
       padding: 0.2em;
       margin: 0.1em;
-      color: var(--purple);
+      color: var(--dark-purple);
+      
   }
 
   /* footer */
@@ -134,7 +122,7 @@
     margin: 1.5rem 0;
   }
   .attribution a {
-    color: var(--green);
+    color: var(--purple);
   }
   
   /* media queries */
