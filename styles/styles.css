@@ -5,11 +5,11 @@
   }
   
   :root {
-    --green: hsl(268, 73%, 75%);
+    --purple: hsl(268, 73%, 75%);
     --white: hsl(0, 0%, 100%);
     --grey: hsl(0, 0%, 20%);
     --dark-grey: hsl(0, 0%, 12%);
-    --off-black: hsl(0, 0%, 8%);
+    --black: hsl(0, 0%, 8%);
   }
   
 /* bg - geral */
@@ -18,7 +18,7 @@
     display: grid;
     place-content: center;
     min-height: 100vh;
-    background-color: var(--off-black);
+    background-color: var(--black);
     text-align: center;
     padding: 4rem 1rem;
     color: var(--white);
@@ -53,7 +53,7 @@
   }
   
   .card .card__details p {
-    color: var(--green);
+    color: var(--purple);
     padding-top: 0.5rem;
     font-weight: 600;
   }
@@ -64,7 +64,7 @@
 
   .fa-brands {
     display: inline-block;
-    color: var(--green);
+    color: var(--purple);
     font-size: 1.4em;
     padding: 0.2em;
   }
@@ -95,45 +95,16 @@
   
   .card li > a:hover,
   .card li > a:focus {
-    background-color: var(--green);
-    color: var(--off-black);
+    background-color: var(--purple);
+    color: var(--black);
   }
   
-  /* icons */
-  .fa-github {
-    font-size: 1.4em;
-    padding: 0.2em;
-    margin: 0.1em;
-    color: var(--green);
+  li > .fa-github, .fa-desktop, .fa-linkedin, .fa-x, .fa-instagram {
+      font-size: 1.4em;
+      padding: 0.2em;
+      margin: 0.1em;
+      color: var(--purple);
   }
-
-  .fa-desktop {
-    font-size: 1.4em;
-    padding: 0.2em;
-    margin: 0.1em;
-    color: var(--green);
-  }
-
- .fa-linkedin {
-    font-size: 1.4em;
-    padding: 0.2em;
-    margin: 0.1em;
-    color: var(--green);
- }
-
- .fa-x {
-    font-size: 1.4em;
-    padding: 0.2em;
-    margin: 0.1em;
-    color: var(--green);
- }
-
- .fa-instagram {
-    font-size: 1.4em;
-    padding: 0.2em;
-    margin: 0.1em;
-    color: var(--green);
- }
 
   /* footer */
   .attribution {
