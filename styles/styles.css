@@ -64,12 +64,32 @@
 
   .fa-brands {
     display: inline-block;
-    color: var(--purple);
     font-size: 1.4em;
     padding: 0.2em;
+    color: var(--purple);
   }
 
+  /* animações */
   
+  /* .slides {
+    display: inline-block;
+  }
+
+  .pagina-slide {
+    white-space: nowrap;
+    width: 75vw;
+    overflow: hidden;
+    animation: anima 5s linear infinite;
+ }   */
+
+ @keyframes anima {
+   100% {
+    transform: translateX(50%);
+   }
+    0% {
+     transform: translateY(0%);
+   }
+  }
 
   /* links */
 
@@ -99,7 +119,8 @@
     color: var(--black);
   }
   
-  li > .fa-github, .fa-desktop, .fa-linkedin, .fa-x, .fa-instagram {
+  /* icones lista */
+   ul .fa-github, .fa-desktop, .fa-linkedin, .fa-x, .fa-instagram {
       font-size: 1.4em;
       padding: 0.2em;
       margin: 0.1em;
